@@ -1,0 +1,80 @@
+.starter-header {
+    padding: 3rem 1.5rem;
+    text-align: left;
+}
+
+#logo{
+  width: 60px;
+  height: 60px;
+    margin-left: 3.5rem;
+}
+
+.jumbotron {
+    text-align: left;
+    background-image: url(img/luis-llerena-16146-compressor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.jumbotron h1{
+    color: #fff;
+    text-shadow: 1px 1px 3px #333;
+}
+
+.jumbotron h3 {
+    color: #fff;
+    text-shadow: 1px 1px 3px #333;
+}
+
+h1 {
+    font-size: 72px;
+    font-family: 'Lato', sans-serif;
+}
+
+h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    color: #5D656C;
+}
+
+h2::after{
+    content: " ";
+    width: 100px;
+    margin-top: 1rem;
+    display: block;
+    height: 3px;
+    background-color: #CF1332;
+}
+
+h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 28px;
+    color: #3A4046;
+}
+
+.content {
+    height: 400px;
+}
+
+.contentHeader {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.vert-align {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.aboutIcons {
+    height: 40px;
+    width: 40px;
+}
+
+.profilePic {
+  border-radius: 15px 50px;
+}
+.icon {
+  fill: #5D656C;
+}
