@@ -4,14 +4,14 @@
 }
 
 #logo{
-  width: 60px;
-  height: 60px;
-    margin-left: 3.5rem;
+    width: 60px;
+    height: 60px;
+    font-family: 'BebasNeue-Regular', sans-serif;
 }
 
 .jumbotron {
     text-align: left;
-    background-image: url(img/luis-llerena-16146-compressor.jpg);
+    background-image: url(/img/luis-llerena-16146-compressor.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
@@ -53,9 +53,6 @@ h3{
     color: #3A4046;
 }
 
-.content {
-    height: 400px;
-}
 
 .contentHeader {
     margin-top: 50px;
@@ -68,13 +65,72 @@ h3{
 }
 
 .aboutIcons {
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
 }
 
 .profilePic {
   border-radius: 15px 50px;
 }
-.icon {
+
+.icon{
   fill: #5D656C;
+}
+
+/* Media Queries */
+@media (max-width: 500px) {
+
+  .jumbotron h1{
+    margin: 0px;
+  }
+
+    .jumbotron h3 {
+        margin: 0px;
+    }
+
+    .display-4 {
+        font-size: 2rem;
+        margin: 0px;
+    }
+    
+    #logo {
+        margin-left: 0;
+    }
+    
+    .content {
+        height: 450px;
+    }
+}
+
+
+@media (max-width: 768px) {
+  .jumbotron h1{
+    margin: 0px;
+  }
+
+    .jumbotron h3 {
+        margin: 0px;
+    }
+
+    .display-4 {
+        font-size: 2rem;
+        margin: 0px;
+    }
+    
+    #logo {
+        margin-left: 1.5rem;
+    }
+    .content {
+    height: 350px;
+}
+}
+
+@media (max-width: 1015px) {
+  .content {
+    height: 500px;
+    }
+    
+    #logo {
+        margin-left: 3.5rem;
+    }
 }
